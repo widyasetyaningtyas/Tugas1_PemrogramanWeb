@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ddd;
+            overflow: hidden;
+        }
+        .navbar a {
+            color: black;
+            text-align: center;
+            padding: 14px 100px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ccc;
+        }
+        .active {
+            background-color: #7FB7D6;
+        }
+        .hero {
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero img {
+            width: 100%;
+            
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .text-card {
+            padding: 1px 1px 30px 1px;
+            text-align: left;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .card {
+            width: 500px;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .card h3 {
+            color: #7FB7D6;
+        }
+        .card p {
+            font-size: small;
+            margin-top: -5px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            font-size: small;
+            padding: 10px;
+        }
+        .footer p {
+            padding: 5px;
+        }
+        .blue {
+            color: #7FB7D6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="gambar_1.png" alt="gambar1" />
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="text-card"> 
+            <b>This is a tittle. Double-click to edit. This is a great place for you to add a greeting.</b>
+        </div>
+        <!-- Cards Section -->
+        <div class="cards">
+            <div class="card">
+                <img src="gambar2.png" alt="gambar2" />
+                <h3>This is a title.</h3>
+                <p>This is a paragraph. Double-click to edit.</p>
+                <p>This is a paragraph. Double-click to edit.</p>
+            </div>
+            <div class="card">
+                <img src="gambar2.png" alt="gambar2" />
+                <h3>This is a title.</h3>
+                <p>This is a paragraph. Double-click to edit.</p>
+                <p>This is a paragraph. Double-click to edit.</p>
+            </div>
+            <div class="card">
+                <img src="gambar2.png" alt="gambar2" />
+                <h3>This is a title.</h3>
+                <p>This is a paragraph. Double-click to edit.</p>
+                <p>This is a paragraph. Double-click to edit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Copyright 2015. Website.com. All Rights Reserved</p>
+        <p>This website is created and hosted by <em class="blue">Website.com's Site Builder.</em></p>
+    </div>
+
+</body>
+</html>
